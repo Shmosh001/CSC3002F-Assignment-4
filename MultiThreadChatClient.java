@@ -1,0 +1,118 @@
+import java.io.DataInputStream;
+import java.io.PrintStream;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.util.*;
+
+public class MultiThreadChatClient implements Runnable
+{
+	//The c l i e n t s o c k e t
+	private static Socket clientSocket = null;
+	// The output stream
+	private static PrintStream os = null;
+	// The input stream
+	private static DataInputStream is = null;
+	private static BufferedReader inputLine = null;
+	private static boolean closed = false; //Volatile variable?
+
+	public static void main(String[] args)
+	{
+		System.out.println("Enter host IP: ");
+		Scanner c = new Scanner(System.in);
+		String ip = c.nextLine();
+		
+		// The default port.
+		int portNumber = 2222;
+		// The default host.
+		String host = ip;
+		if (args.length < 2)
+		{
+			System.out.println("Usage: java MultiThreadChatClient <host> <portNumber>\n" + "Now using host= " + host
+					+ ", portNumber= " + portNumber);
+		}
+		else
+		{
+			host = args[0];
+			portNumber = Integer.valueOf(args[1]).intValue();
+		}
+		/*
+		 * Open a s o c k e t on a gi v e n h o s t and p o r t . Open i npu t
+		 * and output s t re am s .
+		 */
+		try
+		{
+			clientSocket = new Socket(host, portNumber);
+			inputLine = new BufferedReader(new InputStreamReader(System.in));
+			os = new PrintStream(clientSocket.getOutputStream());
+			is = new DataInputStream(clientSocket.getInputStream());
+		}
+		catch (UnknownHostException e)
+		{
+			System.err.println("Don't know about host " + host);
+		}
+		catch (IOException e)
+		{
+			System.err.println("Couldn't get I/O for the connection to the host " + host);
+		}
+		/*
+		 * I f e v e r y t hi n g has been i n i t i a l i z e d then we want t
+		 * o w ri t e some data t o the s o c k e t we have opened a c o n n e c
+		 * ti o n t o on the p o r t portNumber .
+		 */
+		if (clientSocket != null && os != null && is != null)
+		{
+			try
+			{
+				/* C re a te a th re ad t o re ad from the s e r v e r . */
+				new Thread(new MultiThreadChatClient()).start();
+				while (!closed)
+				{
+					os.println(inputLine.readLine().trim());
+				}
+				/*
+				 * Cl o se the output stream , c l o s e the inp u t stream , c
+				 * l o s e the s o c k e t .
+				 */
+				os.close();
+				is.close();
+				clientSocket.close();
+			}
+			catch (IOException e)
+			{
+				System.err.println("IOException : " + e);
+			}
+		}
+	}
+
+	/*
+	 * C re a te a th re ad t o re ad from the s e r v e r . ( non?Javadoc )
+	 * 
+	 * @see j a v a . l a n g . Runnable#run ( )
+	 */
+	public void run()
+	{
+		/*
+		 * Keep on r e a di n g from the s o c k e t t i l l we r e c e i v e
+		 * "Bye" from the s e r v e r . Once we r e c e i v e d t h a t then we
+		 * want t o break .
+		 */
+		String responseLine;
+		try
+		{
+			while ((responseLine = is.readLine()) != null)
+			{
+				System.out.println(responseLine);
+				if (responseLine.indexOf("* * * Bye ") != -1)
+					break;
+			}
+			closed = true;
+		}
+		catch (IOException e)
+		{
+			System.err.println("IOException : " + e);
+		}
+	}
+}

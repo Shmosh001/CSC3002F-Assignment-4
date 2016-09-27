@@ -1,0 +1,609 @@
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.593243000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=141/36096, ttl=1 (no response found!)
+
+Frame 3: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11b3 (4531)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 1
+        [Expert Info (Note/Sequence): "Time To Live" only 1]
+            ["Time To Live" only 1]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: ICMP (1)
+    Header checksum: 0xc6ef [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.596434000    196.42.64.1           196.42.65.228         ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 4: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 196.42.64.1 (196.42.64.1), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x52d6 (21206)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 255
+    Protocol: ICMP (1)
+    Header checksum: 0x5df4 [validation disabled]
+    Source: 196.42.64.1 (196.42.64.1)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.642289000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=142/36352, ttl=2 (no response found!)
+
+Frame 5: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11b4 (4532)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 2
+        [Expert Info (Note/Sequence): "Time To Live" only 2]
+            ["Time To Live" only 2]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: ICMP (1)
+    Header checksum: 0xc5ee [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.661250000    196.42.64.1           196.42.65.228         ICMP     70     Destination unreachable (Port unreachable)
+
+Frame 9: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 196.42.64.1 (196.42.64.1), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x52d7 (21207)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 255
+    Protocol: ICMP (1)
+    Header checksum: 0x5df3 [validation disabled]
+    Source: 196.42.64.1 (196.42.64.1)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.662626000    137.158.248.21        196.42.65.228         ICMP     98     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 10: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 137.158.248.21 (137.158.248.21), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 84
+    Identification: 0xa430 (42032)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: ICMP (1)
+    Header checksum: 0x90b5 [validation disabled]
+    Source: 137.158.248.21 (137.158.248.21)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.692348000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=143/36608, ttl=3 (no response found!)
+
+Frame 11: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11b5 (4533)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 3
+        [Expert Info (Note/Sequence): "Time To Live" only 3]
+            ["Time To Live" only 3]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: ICMP (1)
+    Header checksum: 0xc4ed [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.695392000    137.158.248.17        196.42.65.228         ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 12: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 137.158.248.17 (137.158.248.17), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x8f2c (36652)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 253
+    Protocol: ICMP (1)
+    Header checksum: 0xa6d9 [validation disabled]
+    Source: 137.158.248.17 (137.158.248.17)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.741795000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=144/36864, ttl=4 (no response found!)
+
+Frame 13: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11b6 (4534)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 4
+        [Expert Info (Note/Sequence): "Time To Live" only 4]
+            ["Time To Live" only 4]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: ICMP (1)
+    Header checksum: 0xc3ec [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.755664000    155.232.27.74         196.42.65.228         ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 14: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 155.232.27.74 (155.232.27.74), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 96
+    Identification: 0x29d9 (10713)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 252
+    Protocol: ICMP (1)
+    Header checksum: 0xd782 [validation disabled]
+    Source: 155.232.27.74 (155.232.27.74)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.791795000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=145/37120, ttl=5 (no response found!)
+
+Frame 15: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11b7 (4535)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 5
+    Protocol: ICMP (1)
+    Header checksum: 0xc2eb [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.803349000    155.232.27.74         196.42.65.228         ICMP     110    Destination unreachable (Port unreachable)
+
+Frame 17: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 155.232.27.74 (155.232.27.74), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 96
+    Identification: 0x29da (10714)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 252
+    Protocol: ICMP (1)
+    Header checksum: 0xd781 [validation disabled]
+    Source: 155.232.27.74 (155.232.27.74)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.828595000    155.232.6.204         196.42.65.228         ICMP     182    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 18: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 155.232.6.204 (155.232.6.204), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 168
+    Identification: 0xf079 (61561)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 239
+    Protocol: ICMP (1)
+    Header checksum: 0x3218 [validation disabled]
+    Source: 155.232.6.204 (155.232.6.204)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.842254000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=146/37376, ttl=6 (no response found!)
+
+Frame 19: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11b8 (4536)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 6
+    Protocol: ICMP (1)
+    Header checksum: 0xc1ea [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.879648000    155.232.6.37          196.42.65.228         ICMP     182    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 20: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 155.232.6.37 (155.232.6.37), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 168
+    Identification: 0xa9eb (43499)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 240
+    Protocol: ICMP (1)
+    Header checksum: 0x784d [validation disabled]
+    Source: 155.232.6.37 (155.232.6.37)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 0.891808000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=147/37632, ttl=7 (no response found!)
+
+Frame 21: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11b9 (4537)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 7
+    Protocol: ICMP (1)
+    Header checksum: 0xc0e9 [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 0.941800000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=148/37888, ttl=8 (no response found!)
+
+Frame 22: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11ba (4538)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 8
+    Protocol: ICMP (1)
+    Header checksum: 0xbfe8 [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.959020000    155.232.6.33          196.42.65.228         ICMP     182    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 23: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 155.232.6.33 (155.232.6.33), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 168
+    Identification: 0xcb93 (52115)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 240
+    Protocol: ICMP (1)
+    Header checksum: 0x56a9 [validation disabled]
+    Source: 155.232.6.33 (155.232.6.33)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.992399000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=149/38144, ttl=9 (no response found!)
+
+Frame 24: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11bb (4539)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 9
+    Protocol: ICMP (1)
+    Header checksum: 0xbee7 [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 1.011887000    155.232.7.154         196.42.65.228         ICMP     182    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 25: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 155.232.7.154 (155.232.7.154), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 168
+    Identification: 0xd426 (54310)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 242
+    Protocol: ICMP (1)
+    Header checksum: 0x4a9d [validation disabled]
+    Source: 155.232.7.154 (155.232.7.154)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 1.041891000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=150/38400, ttl=10 (no response found!)
+
+Frame 26: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11bc (4540)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 10
+    Protocol: ICMP (1)
+    Header checksum: 0xbde6 [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 1.065210000    155.232.6.77          196.42.65.228         ICMP     182    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 29: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 155.232.6.77 (155.232.6.77), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 168
+    Identification: 0xbd9a (48538)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 243
+    Protocol: ICMP (1)
+    Header checksum: 0x6176 [validation disabled]
+    Source: 155.232.6.77 (155.232.6.77)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 1.092144000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=151/38656, ttl=11 (no response found!)
+
+Frame 30: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11bd (4541)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 11
+    Protocol: ICMP (1)
+    Header checksum: 0xbce5 [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 1.112010000    155.232.15.55         196.42.65.228         ICMP     182    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 31: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 155.232.15.55 (155.232.15.55), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 168
+    Identification: 0xc290 (49808)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 246
+    Protocol: ICMP (1)
+    Header checksum: 0x1096 [validation disabled]
+    Source: 155.232.15.55 (155.232.15.55)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 1.142196000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=152/38912, ttl=12 (no response found!)
+
+Frame 32: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11be (4542)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 12
+    Protocol: ICMP (1)
+    Header checksum: 0xbbe4 [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 1.153476000    155.232.15.107        196.42.65.228         ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 33: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 155.232.15.107 (155.232.15.107), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x0000 (0)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 244
+    Protocol: ICMP (1)
+    Header checksum: 0x1563 [validation disabled]
+    Source: 155.232.15.107 (155.232.15.107)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 1.178807000    72.14.211.150         196.42.65.228         ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 34: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0), Dst: Azurewav_52:73:55 (dc:85:de:52:73:55)
+Internet Protocol Version 4, Src: 72.14.211.150 (72.14.211.150), Dst: 196.42.65.228 (196.42.65.228)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x0000 (0)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 244
+    Protocol: ICMP (1)
+    Header checksum: 0xa511 [validation disabled]
+    Source: 72.14.211.150 (72.14.211.150)
+    Destination: 196.42.65.228 (196.42.65.228)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 1.192227000    196.42.65.228         173.194.45.82         ICMP     70     Echo (ping) request  id=0x0001, seq=153/39168, ttl=13 (no response found!)
+
+Frame 35: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Azurewav_52:73:55 (dc:85:de:52:73:55), Dst: Cisco_b6:fe:c0 (00:14:f1:b6:fe:c0)
+Internet Protocol Version 4, Src: 196.42.65.228 (196.42.65.228), Dst: 173.194.45.82 (173.194.45.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 56
+    Identification: 0x11bf (4543)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 13
+    Protocol: ICMP (1)
+    Header checksum: 0xbae3 [validation disabled]
+    Source: 196.42.65.228 (196.42.65.228)
+    Destination: 173.194.45.82 (173.194.45.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
